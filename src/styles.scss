@@ -1,1 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  margin: 0;
+}
+
+.main-title {
+  width: 100%; //
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 114px;
+  background: linear-gradient(90deg, #ff2d61 0%, #f44eca 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: 10%;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 63px;
+  color: rgba(34, 32, 33, 0.75);
+  margin-left: 10%;
+}
+
+.title {
+  width: 100%;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 112px;
+  color: rgba(34, 32, 33, 0.75);
+  margin-left: 10%;
+}
+
+.sub-title-description {
+  width: 425px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  color: rgba(34, 32, 33, 0.75);
+}
+
+.description {
+  width: 40%;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 30px;
+  margin-left: 10%;
+  color: #000000;
+}
+
+.main-btn {
+  @extend .button;
+}
+
+.secondary-btn {
+  @extend .button;
+  height: 68px !important;
+  margin-top: 3vw;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 228px;
+  height: 78px;
+  background: #ff2d61;
+  box-shadow: 0px 18px 21px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  margin-left: 10%;
+  margin-top: 2vh;
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  mat-icon {
+    margin-left: 6px;
+  }
+}
+
+.social-media {
+  img {
+    height: 28px;
+    width: 28px;
+    left: 0px;
+    top: 2.28570556640625px;
+    border-radius: 0px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+}

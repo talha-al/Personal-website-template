@@ -1,0 +1,51 @@
+:host {
+  background: rgba(34, 32, 33, 0.9);
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-top: 5vw;
+
+}
+
+.custom-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.custom-descrb {
+  font-weight: 400;
+  color: #cecece;
+}
+
+.seperate {
+  width: 100%;
+  border-top: 1px solid #cecece;
+  margin-top: 4vw;
+}
+
+.footer-description {
+  display: flex;
+  place-content: center space-evenly;
+  align-items: center;
+  margin: 1vw 0;
+}
+
+.docs{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 16px;
+  color: #cecece;
+}

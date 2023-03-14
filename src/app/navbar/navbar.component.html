@@ -1,0 +1,18 @@
+<div class="info-section" fxLayout="row" fxLayoutAlign="end end">
+  <div> mail@example.com</div>
+  <div>|</div>
+  <div> (123) 456-7890 </div>
+</div>
+<div class="navbar" fxLayout="row" fxLayoutAlign="space-around center">
+  <div class="logo" [routerLink]="['home']">Logo</div>
+  <div class="buttons">
+    <div [routerLink]="['home']" [ngClass]="{'selected': selectedMenu('/home')}">Home</div>
+    <div [routerLink]="['portfolio']" [ngClass]="{'selected': selectedMenu('/portfolio')}">Portfolio</div>
+    <div [routerLink]="['about']" [ngClass]="{'selected': selectedMenu('/about')}">About</div>
+  </div>
+  <div class="social-media">
+    <img src="assets/linkedin.svg">
+    <img src="assets/twitter.svg">
+    <img src="assets/github.svg">
+  </div>
+</div>
